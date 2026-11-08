@@ -223,7 +223,7 @@ runs:
         PACKAGE_MANAGER: ${{ steps.detect.outputs.package-manager }}
         RELIZY_VERSION: ${{ inputs.relizy-version }}
         # Replaced by the version of relizy when synced to github.com/relizy/action
-        RELIZY_ACTION_VERSION: '2.1.0'
+        RELIZY_ACTION_VERSION: '2.2.0'
         GITHUB_TOKEN: ${{ inputs.github-token }}
         RELIZY_NPM_TOKEN: ${{ inputs.npm-token }}
         RELIZY_SLACK_TOKEN: ${{ inputs.slack-token }}
